@@ -1,0 +1,18 @@
+/*
+Theme Name:     Responsive Child
+Description:    Child theme for the Responsive theme
+Author:         Erik Rosenhart
+Template:       responsive
+*/
+
+@import url("../responsive/style.css");
+
+#logo {
+	margin: 10px 0!important;
+	padding-bottom: 10px;
+}
+
+.amazingslider-timer-1 + div {
+	display: none !important;
+}
+

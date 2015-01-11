@@ -1,0 +1,189 @@
+0000.000 (0) Opened log file at time: Tue, 05 Aug 2014 19:35:20 +0000 on http://www.siaslservices.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.17 WP: 3.4.2 PHP: 5.2.17 (Linux srv047037.webreus.nl 2.6.18-028stab091.2 #1 SMP Fri Jun 3 00:02:40 MSD 2011 i686) MySQL: 5.1.47 Server: Apache/2.0.54 (Fedora) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.5M | 24M) multisite: N mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 420061.9 Mb
+0000.007 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.011 (0) Requesting semaphore lock (fd)
+0000.013 (0) Set semaphore last lock (fd) time to 2014-08-05 19:35:20
+0000.013 (0) Semaphore lock (fd) complete
+0000.016 (0) Backup run: resumption=0, nonce=ae10b7bfbcf3, begun at=1407267320 (0s ago), job type=backup
+0000.017 (0) Scheduling a resumption (1) after 300 seconds (1407267620) in case this run gets aborted
+0000.054 (0) OpenVZ; reported memory: 7956.6 Mb
+0000.055 (0) Checking if we have a zip executable available
+0000.056 (0) Creation of backups of directories: beginning
+0000.058 (0) Beginning creation of dump of plugins (split every: 800 Mb)
+0000.326 (0) Total entities for the zip file: 109 directories, 637 files (0 skipped as non-modified), 10.5 Mb
+0000.351 (0) Zip: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.362 (0) Zip: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.374 (0) Zip: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.384 (0) Zip: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.394 (0) Zip: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.394 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.2 Mb, 637 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0002.287 (0) Zip: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip.tmp: 600 files added (on-disk size: 3311.7 Kb)
+0005.820 (0) Created plugins zip (0) - 3839.8 Kb in 5.8 s (666.5 Kb/s) (SHA1 checksum: a783b88649cb2fa3cdcd1c06fe0d20757aa34c20)
+0005.822 (0) Beginning creation of dump of themes (split every: 800 Mb)
+0006.173 (0) Total entities for the zip file: 22 directories, 271 files (0 skipped as non-modified), 3 Mb
+0006.180 (0) Zip: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0006.187 (0) Zip: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0007.793 (0) Created themes zip (0) - 1750.6 Kb in 2 s (888.3 Kb/s) (SHA1 checksum: df66858db39eb7f08b374e574972794ea011f656)
+0007.795 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0007.796 (0) Looking for candidates to back up in: /var/www/vhosts/siaslservices.com/httpdocs/wp-content/uploads
+0007.797 (0) finding files: 2012: adding to list (1)
+0007.797 (0) finding files: 2014: adding to list (2)
+0007.800 (0) finding files: .htaccess: adding to list (3)
+0007.804 (0) finding files: 2013: adding to list (4)
+0007.804 (0) finding files: 2016: adding to list (5)
+0007.805 (0) finding files: et_temp: adding to list (6)
+0007.806 (0) finding files: 2015: adding to list (7)
+0007.806 (0) Beginning creation of dump of uploads (split every: 800 Mb)
+0008.131 (0) Total entities for the zip file: 66 directories, 78 files (0 skipped as non-modified), 16.4 Mb
+0012.417 (0) Created uploads zip (0) - 16683.8 Kb in 4.6 s (3619.2 Kb/s) (SHA1 checksum: a4c8f112b7ef793cd4763b3ba0fe2838609a4f55)
+0012.419 (0) Beginning backup of other directories found in the content directory (index: 0)
+0012.420 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0012.421 (0) Looking for candidates to back up in: /var/www/vhosts/siaslservices.com/httpdocs/wp-content
+0012.421 (0) finding files: upgrade: skipping: excluded by options
+0012.422 (0) finding files: uploads: skipping: this is the uploads directory
+0012.423 (0) finding files: blogs.dir: adding to list (1)
+0012.424 (0) finding files: themes: skipping: this is the themes directory
+0012.424 (0) finding files: plugins: skipping: this is the plugins directory
+0012.425 (0) finding files: index.php: adding to list (2)
+0012.426 (0) finding files: languages: adding to list (3)
+0012.427 (0) finding files: updraft: skipping: this is the updraft directory
+0012.450 (0) Total entities for the zip file: 2 directories, 9 files (0 skipped as non-modified), 1.3 Mb
+0012.738 (0) Created others zip (0) - 373.8 Kb in 0.3 s (1206.9 Kb/s) (SHA1 checksum: 61d13e6fdf1c354212c14e1b1754d5ba2a3af043)
+0012.741 (0) Saving backup status to database (elements: 8)
+0012.742 (0) Beginning creation of database dump (WordPress DB)
+0012.743 (0) Testing: /usr/bin/mysqldump
+0012.789 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0012.858 (0) Table wp_options: Total expected rows (approximate): 251
+0012.890 (0) Table wp_options: Total rows added: 250 in 0.03 seconds
+0012.891 (0) Table wp_options: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_options.table.gz - 76.1 Kb)
+0012.894 (0) Table wp_users: Total expected rows (approximate): 1
+0012.896 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0012.897 (0) Table wp_users: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_users.table.gz - 0.5 Kb)
+0012.900 (0) Table wp_usermeta: Total expected rows (approximate): 23
+0012.902 (0) Table wp_usermeta: Total rows added: 23 in 0.00 seconds
+0012.903 (0) Table wp_usermeta: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_usermeta.table.gz - 0.9 Kb)
+0012.906 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0012.920 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0012.921 (0) Table wp_commentmeta: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_commentmeta.table.gz - 0.3 Kb)
+0012.923 (0) Table wp_comments: Total expected rows (approximate): 1
+0012.926 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0012.927 (0) Table wp_comments: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_comments.table.gz - 0.7 Kb)
+0012.931 (0) Table wp_links: Total expected rows (approximate): 7
+0012.934 (0) Table wp_links: Total rows added: 7 in 0.00 seconds
+0012.935 (0) Table wp_links: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_links.table.gz - 0.6 Kb)
+0012.937 (0) Table wp_postmeta: Total expected rows (approximate): 105
+0012.966 (0) Table wp_postmeta: Total rows added: 105 in 0.03 seconds
+0012.967 (0) Table wp_postmeta: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_postmeta.table.gz - 3.8 Kb)
+0012.987 (0) Table wp_posts: Total expected rows (approximate): 35
+0012.995 (0) Table wp_posts: Total rows added: 35 in 0.01 seconds
+0012.996 (0) Table wp_posts: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_posts.table.gz - 2.7 Kb)
+0013.000 (0) Table wp_term_relationships: Total expected rows (approximate): 10
+0013.003 (0) Table wp_term_relationships: Total rows added: 10 in 0.00 seconds
+0013.004 (0) Table wp_term_relationships: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_term_relationships.table.gz - 0.4 Kb)
+0013.007 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0013.009 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0013.010 (0) Table wp_term_taxonomy: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_term_taxonomy.table.gz - 0.4 Kb)
+0013.013 (0) Table wp_terms: Total expected rows (approximate): 3
+0013.015 (0) Table wp_terms: Total rows added: 3 in 0.00 seconds
+0013.016 (0) Table wp_terms: finishing file (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_terms.table.gz - 0.4 Kb)
+0013.020 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_options.table.gz (1/11): adding to final database dump
+0013.050 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_users.table.gz (2/11): adding to final database dump
+0013.051 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_usermeta.table.gz (3/11): adding to final database dump
+0013.052 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_commentmeta.table.gz (4/11): adding to final database dump
+0013.053 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_comments.table.gz (5/11): adding to final database dump
+0013.054 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_links.table.gz (6/11): adding to final database dump
+0013.054 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_postmeta.table.gz (7/11): adding to final database dump
+0013.057 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_posts.table.gz (8/11): adding to final database dump
+0013.059 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_term_relationships.table.gz (9/11): adding to final database dump
+0013.060 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_term_taxonomy.table.gz (10/11): adding to final database dump
+0013.060 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db-table-wp_terms.table.gz (11/11): adding to final database dump
+0013.061 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db.gz: finished writing out complete database file (64 Kb)
+0013.064 (0) Total database tables backed up: 11 (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db.gz, size: 85907, checksum (SHA1): 644a3b5ece0500705c7075b22dabb231d452f1db)
+0013.065 (0) Saving backup history
+0013.068 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0013.068 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0013.069 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0013.069 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-others.zip: others: This file has not yet been successfully uploaded: will queue
+0013.070 (0) backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db.gz: db: This file has not yet been successfully uploaded: will queue
+0013.071 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0013.073 (0) Cloud backup selection: ftp
+0013.073 (0) Beginning dispatch of backup to remote (ftp)
+0013.085 (0) FTP upload attempt: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip -> ftp://siaslserviccom@ftp.siaslservices.com//httpdocs/backup/backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip
+0013.108 (0) Ftp chunked upload: 13.4 % uploaded
+0013.152 (0) Ftp chunked upload: 26.9 % uploaded
+0013.193 (0) Ftp chunked upload: 40.3 % uploaded
+0013.233 (0) Ftp chunked upload: 53.7 % uploaded
+0013.263 (0) Ftp chunked upload: 67.2 % uploaded
+0013.291 (0) Ftp chunked upload: 80.6 % uploaded
+0013.319 (0) Ftp chunked upload: 94 % uploaded
+0013.341 (0) FTP upload attempt successful (3839.8Kb in 0.26s)
+0013.343 (0) Recording as successfully uploaded: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip (0f40129b8297a122f2c1cc235c0f0f87)
+0013.347 (0) Deleting local file: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-plugins.zip: OK
+0013.348 (0) FTP upload attempt: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-themes.zip -> ftp://siaslserviccom@ftp.siaslservices.com//httpdocs/backup/backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-themes.zip
+0013.372 (0) Ftp chunked upload: 29.5 % uploaded
+0013.402 (0) Ftp chunked upload: 58.9 % uploaded
+0013.426 (0) Ftp chunked upload: 88.4 % uploaded
+0013.441 (0) FTP upload attempt successful (1750.6Kb in 0.09s)
+0013.443 (0) Recording as successfully uploaded: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-themes.zip (92fafb4ec3b05f19776e2f60989e58d0)
+0013.446 (0) Deleting local file: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-themes.zip: OK
+0013.447 (0) FTP upload attempt: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-uploads.zip -> ftp://siaslserviccom@ftp.siaslservices.com//httpdocs/backup/backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-uploads.zip
+0013.474 (0) Ftp chunked upload: 3.1 % uploaded
+0013.512 (0) Ftp chunked upload: 6.2 % uploaded
+0013.545 (0) Ftp chunked upload: 9.3 % uploaded
+0013.571 (0) Ftp chunked upload: 12.4 % uploaded
+0013.607 (0) Ftp chunked upload: 15.5 % uploaded
+0013.640 (0) Ftp chunked upload: 18.6 % uploaded
+0013.666 (0) Ftp chunked upload: 21.6 % uploaded
+0013.692 (0) Ftp chunked upload: 24.7 % uploaded
+0013.726 (0) Ftp chunked upload: 27.8 % uploaded
+0013.752 (0) Ftp chunked upload: 30.9 % uploaded
+0013.778 (0) Ftp chunked upload: 34 % uploaded
+0013.804 (0) Ftp chunked upload: 37.1 % uploaded
+0013.831 (0) Ftp chunked upload: 40.2 % uploaded
+0013.856 (0) Ftp chunked upload: 43.3 % uploaded
+0013.886 (0) Ftp chunked upload: 46.4 % uploaded
+0013.909 (0) Ftp chunked upload: 49.5 % uploaded
+0013.941 (0) Ftp chunked upload: 52.6 % uploaded
+0013.965 (0) Ftp chunked upload: 55.7 % uploaded
+0013.988 (0) Ftp chunked upload: 58.7 % uploaded
+0014.017 (0) Ftp chunked upload: 61.8 % uploaded
+0014.041 (0) Ftp chunked upload: 64.9 % uploaded
+0014.064 (0) Ftp chunked upload: 68 % uploaded
+0014.087 (0) Ftp chunked upload: 71.1 % uploaded
+0014.111 (0) Ftp chunked upload: 74.2 % uploaded
+0014.133 (0) Ftp chunked upload: 77.3 % uploaded
+0014.156 (0) Ftp chunked upload: 80.4 % uploaded
+0014.179 (0) Ftp chunked upload: 83.5 % uploaded
+0014.202 (0) Ftp chunked upload: 86.6 % uploaded
+0014.225 (0) Ftp chunked upload: 89.7 % uploaded
+0014.248 (0) Ftp chunked upload: 92.8 % uploaded
+0014.271 (0) Ftp chunked upload: 95.9 % uploaded
+0014.294 (0) Ftp chunked upload: 98.9 % uploaded
+0014.316 (0) FTP upload attempt successful (16683.8Kb in 0.87s)
+0014.317 (0) Recording as successfully uploaded: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-uploads.zip (b0c271982759c0aab308ee2136c90508)
+0014.326 (0) Deleting local file: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-uploads.zip: OK
+0014.327 (0) FTP upload attempt: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-others.zip -> ftp://siaslserviccom@ftp.siaslservices.com//httpdocs/backup/backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-others.zip
+0014.344 (0) FTP upload attempt successful (373.8Kb in 0.02s)
+0014.346 (0) Recording as successfully uploaded: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-others.zip (3b47c3fefa24defa50d3cb55a82a20c9)
+0014.348 (0) Deleting local file: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-others.zip: OK
+0014.348 (0) FTP upload attempt: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db.gz -> ftp://siaslserviccom@ftp.siaslservices.com//httpdocs/backup/backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db.gz
+0014.353 (0) FTP upload attempt successful (83.9Kb in 0s)
+0014.355 (0) Recording as successfully uploaded: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db.gz (55c19d6ed50d6beb3e0c812d8ac24dd6)
+0014.357 (0) Deleting local file: backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db.gz: OK
+0014.358 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0014.359 (0) Number of backup sets in history: 1
+0014.360 (0) Examining backup set with datestamp: 1407267320 (Aug 05 2014 19:35:20)
+0014.360 (0) 1407267320: db: this set includes a database (backup_2014-08-05-2035_Siasl_services_ae10b7bfbcf3-db.gz); db count is now 1
+0014.361 (0) 1407267320: this backup set remains non-empty (1/1); will retain in history
+0014.362 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0014.363 (0) Resume backup (ae10b7bfbcf3, 0): finish run
+0014.364 (0) Decremented the semaphore (fd) by 1
+0014.365 (0) Semaphore (fd) unlocked
+0014.365 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0014.367 (0) The backup apparently succeeded and is now complete
+0014.368 (0) An email has been scheduled for this job, because we are in debug mode
+0014.369 (0) Fetching RSS news feed
+0014.464 (0) Fetched RSS news feed; result is a: SimplePie
+0014.469 (0) Sending email ('Bestanden en database (Volledige backup)') report (attachments: 1, size: 16.3 Kb) to: rsnh0...
+0014.590 (0) De backup is zo te zien geslaagd en is nu klaar.
